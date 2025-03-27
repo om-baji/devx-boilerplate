@@ -2,6 +2,14 @@
 
 This is a **Next.js** project bootstrapped with [`create-next-app`](https://nextjs.org/docs/api-reference/create-next-app).
 
+### ⚡ Integrated Features
+
+Our project comes equipped with:
+
+- **Shadcn**: A powerful UI component library to help speed up development.
+- **Tailwind CSS**: A utility-first framework for crafting custom designs.
+- **Rendering Examples**: Practical demonstrations of both client-side and server-side rendering techniques.
+
 ---
 
 ## 📥 Getting Started
