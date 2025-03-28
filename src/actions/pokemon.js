@@ -23,16 +23,9 @@ export async function getPokemon() {
       })
     );
 
-    const filteredPokemons = pokemonDetails.filter(
-      (pokemon) =>
-        pokemon.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        pokemon.type.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        pokemon.owner.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-
     return {
       success: true,
-      pokemons: filteredPokemons,
+      pokemons: pokemonDetails,
     };
   } catch (error) {
     return {
